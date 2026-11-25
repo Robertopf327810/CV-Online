@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: recursive
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -40,9 +42,9 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
-          path: './mi-cv/dist'
+          path: './mi-cv/dist' # Cambia a './mi-cv/build' si usas Create React App
 
       - name: Deploy to GitHub Pages
         id: deployment
