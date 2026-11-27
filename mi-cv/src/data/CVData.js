@@ -15,6 +15,8 @@ export const cvData = {
     phone: "+52 443 463 6242",
     github: "https://github.com/Robertopf327810",
     linkedin: "https://www.linkedin.com/in/roberto-p%C3%A9rez-flores-a1149834b/",
+    facebook: "https://www.facebook.com/roberto.perez.flores.327",
+    instagram: "https://www.instagram.com/roberto_pf19/",
     summary:
       "Estudiante de Ingeniería en Sistemas y Seguridad Informática en la Universidad Vasco de Quiroga (UVAQ), con experiencia práctica en desarrollo web full-stack, aplicaciones de escritorio, gestión de bases de datos relacionales y administración de entornos Linux. Enfocado en construir software seguro, escalable y con buena experiencia de usuario.",
   },
@@ -47,7 +49,7 @@ export const cvData = {
       description:
         "Tienda web full-stack especializada en hardware y equipos de cómputo con arquitectura de 8 tablas relacionales, API REST y panel de gestión.",
       tech: ["React", "Node.js", "Express", "MySQL", "Sequelize"],
-      github: "https://github.com/Robertopf327810",
+      github: "https://github.com/Robertopf327810/HeroesPc-Web",
       demo: "",
     },
     {

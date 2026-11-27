@@ -1,16 +1,50 @@
-# React + Vite
+# CV Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio personal de Roberto Pérez Flores, desarrollado con React y Vite. Presenta información profesional, habilidades, formación y proyectos en una interfaz adaptable a dispositivos móviles.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Secciones de presentación, sobre mí, habilidades, proyectos, formación y contacto.
+- Filtros para explorar los proyectos por categoría.
+- Enlaces a perfiles sociales y repositorios.
+- Accesos de contacto por correo mediante Gmail y por WhatsApp.
+- Mapa de ubicación integrado con OpenStreetMap.
+- Control opcional de música ambiental generado con Web Audio.
+- Diseño adaptable para escritorio y dispositivos móviles.
 
-## React Compiler
+## Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- Lucide React
 
-## Expanding the ESLint configuration
+## Requisitos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js y npm instalados.
+
+## Instalación y desarrollo
+
+Desde la carpeta del proyecto:
+
+```bash
+npm install
+npm run dev
+```
+
+Vite mostrará en la terminal la dirección local para abrir el sitio en el navegador.
+
+## Comandos disponibles
+
+| Comando | Descripción |
+| --- | --- |
+| `npm run dev` | Inicia el servidor de desarrollo. |
+| `npm run build` | Genera la versión de producción en `dist/`. |
+| `npm run preview` | Sirve localmente la compilación de producción. |
+| `npm run lint` | Ejecuta ESLint. |
+
+## Personalización
+
+Los datos personales, enlaces, habilidades y proyectos se configuran en [`src/data/CVData.js`](src/data/CVData.js). Las imágenes y logos del portafolio están en [`src/assets/`](src/assets/).
+
+La ruta base de despliegue está configurada en [`vite.config.js`](vite.config.js) como `/CV-Online/`, para publicar el sitio bajo esa ruta.
